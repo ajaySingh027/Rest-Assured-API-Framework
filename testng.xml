@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name = "EmployeeRestAPISuite">
+
+	<test name = "EmployeeTestCases">
+	
+		<classes>
+			<class name = "testCases.DataDriven_test_AddNewEmp"/>
+			<class name = "testCases.TC001_GET_Request"/>
+			<class name = "testCases.TC002_POST_Request"/>
+			<class name = "testCases.TC003_Request_PrintAllHeaders"/>
+		
+		</classes>
+	
+	</test>
+
+</suite>

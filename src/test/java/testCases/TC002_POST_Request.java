@@ -46,7 +46,7 @@ public class TC002_POST_Request {
 		System.out.println(responseBody);
 		
 		int statusCode = response.getStatusCode();
-		Assert.assertEquals(statusCode, 201);
+		Assert.assertEquals(statusCode, 200);
 
 		String successCode = response.jsonPath().get("SuccessCode");
 		Assert.assertEquals(successCode, "OPERATION_SUCCESS");
