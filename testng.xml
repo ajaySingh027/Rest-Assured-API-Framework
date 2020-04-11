@@ -4,6 +4,11 @@
 
 <suite name = "EmployeeRestAPISuite">
 
+
+	<listeners>
+		<listener class-name = "Utility.Listeners" />
+	</listeners>
+
 	<test name = "EmployeeTestCases">
 	
 		<classes>
